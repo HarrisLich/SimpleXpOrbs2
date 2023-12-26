@@ -1,0 +1,20 @@
+xporbs:
+  drop_on_death: "true"
+  send_death_message: "true"
+  send_redeem_message: "true"
+  send_withdraw_message: "true"
+messages:
+  help:
+    - "&6&lSimpleXpOrbs"
+    - "&8-----------------------------------"
+    - "&8SimpleXpOrbs: &7/xporb"
+    - "&8SimpleXpOrbs: &7/xporb [amount]"
+    - "&8SimpleXpOrbs: &7/xporb all"
+  on_redeem: "&8SimpleXpOrbs: &7You redeemed {orbXp} xp"
+  on_death: "&8SimpleXpOrbs: &7You dropped {playerXp} xp"
+  orb_no_xp: "&8SimpleXpOrbs: &4You do not have enough xp!"
+  curr_xp: "&8SimpleXpOrbs: &7You have {playerXp} xp"
+  on_withdraw: "&8SimpleXpOrbs: &7You withdrew {orbXp} xp"
+  withdraw_zero_xp: "&8SimpleXpOrbs: &4You cannot withdraw 0 xp!"
+
+

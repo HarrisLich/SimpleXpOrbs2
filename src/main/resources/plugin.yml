@@ -1,0 +1,26 @@
+name: SimpleXPOrbs2
+version: '${project.version}'
+main: de.harrisblog.simplexporbs2.SimpleXPOrbs2
+api-version: 1.20
+commands:
+  xporb:
+    usage: /xporb
+permissions:
+  xporb.*:
+    children:
+      xporb.withdraw: true
+      xporb.withdraw_all: true
+      xporb.reload: true
+      xporb.xporb: true
+      xporb.xp: true
+  xporb.withdraw:
+    description: withdraw xp
+  xporb.withdraw_all:
+    description: withdraw all xp
+  xporb.xp:
+    description: display xp
+  xporb.reload:
+    description: reload xporb plugin
+  xporb.xporb:
+    description: help command
+
